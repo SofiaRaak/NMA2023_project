@@ -1,8 +1,8 @@
-# NMA2023 group's project: Neuronal population dynamics during the maintenance and manipulation of information in working memory
+# Neuronal population dynamics during the maintenance and manipulation of information in working memory
 
-Materials created during the group's project of NMA2023.
+Materials created during the group's project of NMA2023. Authors: Eléonore Houdoyer, Sofia Raak, Iakov Kharitonov, Ladislas Nalborczyk, Jiaxin Wang. Mentoring: Taha Solakoglu and Maciek Szul.
 
-## Abstract
+## Abstract (to be updated)
 
 Working memory enables animals to maintain a stable and coherent representation of the external world. However, how working memory is encoded in the brain remains poorly understood. One key question is how a population of neurons with fluctuating activity successfully maintains a stable representation of a phenomenon, and how these representations are affected by previous experience or prior knowledge. Based on previous experimental and modelling work, we suggest that representational stability is achieved through population dynamics where the dynamical activity of neuronal populations rather than individual neurons can generate stable activity motifs in the working memory neural landscape. To study the dynamics of working memory, we designed a simple recurrent neural network model of working memory and trained it to perform a delayed matching task. We performed joint analysis of the artificial network's activity and intracranial single-neuron spike-train recordings from rhesus monkey prefrontal cortex to achieve a mechanistic understanding of the latent dynamics governing working memory in vivo and in silico. We then trained an identical network for a shorter duration to perform with lower accuracy in the delayed matching task to investigate the effects of reduced training of the task on the network dynamics in working memory. We hypothesise that 1) specific memories are transiently encoded at the individual-neuron level but sustainedly encoded by population dynamics throughout the entire trial, 2) the level of prior exposure to the task will change the memory neural landscape, and 3) activity-silent periods will be observed in both recurrent neural networks and monkeys. Our work will contribute to the understanding of the interplay between population dynamics and prior learning in the context of working memory. Future research should examine how lower-scale (e.g., short-term synaptic plasticity) or structural (e.g., connectivity) features affect population dynamics during working memory tasks.
 
@@ -31,7 +31,3 @@ Stokes, M. G., Kusunoki, M., Sigala, N., Nili, H., Gaffan, D., & Duncan, J. (201
 Stokes, M. G. (2015). ‘Activity-silent’ working memory in prefrontal cortex: A dynamic coding framework. Trends in Cognitive Sciences, 19(7), 394–405. https://doi.org/10.1016/j.tics.2015.05.004
 
 Vyas, S., Golub, M. D., Sussillo, D., & Shenoy, K. V. (2020). Computation Through Neural Population Dynamics. Annual Review of Neuroscience, 43(1), 249–275. https://doi.org/10.1146/annurev-neuro-092619-094115
-
-## Authors
-
-Eléonore Houdoyer, Sofia Raak,  Iakov Kharitonov, Ladislas Nalborczyk, Jiaxin Wang. Mentoring: Taha Solakoglu and Maciek Szul.
