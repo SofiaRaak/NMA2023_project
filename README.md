@@ -6,6 +6,18 @@ Materials created during the group's project of NMA2023. Authors: Eléonore Houd
 
 Working memory enables animals to maintain a stable and coherent representation of the external world. However, how working memory is encoded in the brain remains poorly understood. One key question is how a population of neurons with fluctuating activity successfully maintains a stable representation of a phenomenon, and how these representations are affected by previous experience or prior knowledge. Based on previous experimental and modelling work, we suggest that representational stability is achieved through population dynamics where the dynamical activity of neuronal populations rather than individual neurons can generate stable activity motifs in the working memory neural landscape. To study the dynamics of working memory, we designed a simple recurrent neural network model of working memory and trained it to perform a delayed matching task. We performed joint analysis of the artificial network's activity and intracranial single-neuron spike-train recordings from rhesus monkey prefrontal cortex to achieve a mechanistic understanding of the latent dynamics governing working memory in vivo and in silico. We then trained an identical network for a shorter duration to perform with lower accuracy in the delayed matching task to investigate the effects of reduced training of the task on the network dynamics in working memory. We hypothesise that 1) specific memories are transiently encoded at the individual-neuron level but sustainedly encoded by population dynamics throughout the entire trial, 2) the level of prior exposure to the task will change the memory neural landscape, and 3) activity-silent periods will be observed in both recurrent neural networks and monkeys. Our work will contribute to the understanding of the interplay between population dynamics and prior learning in the context of working memory. Future research should examine how lower-scale (e.g., short-term synaptic plasticity) or structural (e.g., connectivity) features affect population dynamics during working memory tasks.
 
+## Code
+
+__importing_analysing_monkeys_data.ipynb__ imports monkey spike train data, applies smoothing and averaging, computes PCA, plots distance between trajectories in latent space, applies temporal decoding, finds neurons shared between trials.
+
+__RNN_Delay_Task.ipynb__ defines and trains a RNN model on Delayed Match-to-Category task.
+
+__Monkey_Data_Preprocessing_Meyer_2011.ipynb__ imports monkey spike train data, applies smoothing and finds neurons shared between trials as in __importing_analysing_monkeys_data.ipynb__.
+
+__Dimensionality_Reduction_Analysis.ipynb__ analyses the activity of the hiddent units of the RNN in PCA space.
+
+__RNN_Decoding.ipynb__ applies temporal decoding to the hidden units of the RNN.
+
 ## References
 
 Chaisangmongkon, W., Swaminathan, S. K., Freedman, D. J., & Wang, X.-J. (2017). Computing by Robust Transience: How the Fronto-Parietal Network Performs Sequential, Category-Based Decisions. Neuron, 93(6), 1504-1517.e4. https://doi.org/10.1016/j.neuron.2017.03.002
