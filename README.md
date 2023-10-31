@@ -18,6 +18,10 @@ __Dimensionality_Reduction_Analysis.ipynb__ analyses the activity of the hiddent
 
 __RNN_Decoding.ipynb__ applies temporal decoding to the hidden units of the RNN.
 
+__Preprocess_Spatial_Data.m__ imports and preprocesses the neural data
+
+__PCA_Analysis.m__ applys principle component analysis to extract neural trajectories
+
 ## References
 
 Chaisangmongkon, W., Swaminathan, S. K., Freedman, D. J., & Wang, X.-J. (2017). Computing by Robust Transience: How the Fronto-Parietal Network Performs Sequential, Category-Based Decisions. Neuron, 93(6), 1504-1517.e4. https://doi.org/10.1016/j.neuron.2017.03.002
